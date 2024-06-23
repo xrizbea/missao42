@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basics</title>
+    <style>
+        body {
+            background-color: pink;
+            font-family: Arial, sans-serif; /* Defina a fonte padrão */
+        }
+        .main-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Adiciona espaço entre os elementos filhos */
+        }
+        .container, .links {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centraliza os itens verticalmente */
+        }
+        .container img, .links img {
+            max-width: 100%; /* Impede que as imagens ultrapassem a largura do contêiner */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+        .copy {
+            text-align: right;
+            font-family: monospace;
+            font-style: italic;
+        }
+      
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color: white;">Compre sem sair de casa!!!</h1>
+
+    <div class="main-container">
+        <div class="container">
+            <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/1903002-online-shopping-on-mobile-shopping-bags-and-boxes-on-blue-background-shop-online-on-mobile-application-vetor.jpg" alt="Compras online" height="500" width="600">
+            <a href="https://www.magazinevoce.com.br/magazinesitemax/?gad_source=1&gclid=CjwKCAjwl4yyBhAgEiwADSEjeNXnL0jraDg9TqrermX5ydCg6CsGQ8h2yUPWoEebZ4AygvUJYvC1fhoC4qkQAvD_BwE" target="_blank">Encontre tudo que você precisa</a>
+        </div>
+        
+        <div class="links">
+            <img src="https://img.freepik.com/fotos-premium/colagem-de-compras-de-moda-online_23-2150535793.jpg" alt="Compras de moda online" height="500" width="600">
+            <a href="https://www.mercadolivre.com.br/" target="_blank">Compre hoje e receba hoje</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer class="copy">
+        &copy; 2024 Beatriz Thebas
+    </footer>
+</body>
+</html>

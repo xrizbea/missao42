@@ -1,0 +1,19 @@
+table{
+    border: 1px solid black; /* Adiciona uma borda preta de 1px à tabela */
+    border-collapse: collapse; /* Une as bordas das células para uma aparência mais limpa */
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-width: auto;
+    min-height: auto;
+}
+
+td{
+    padding: 8px; /* Adiciona um espaçamento interno de 8px nas células */
+}
+.coluna1{
+    background-color: rgb(248, 0, 0);
+}
+.coluna2{
+    background-color: green;
+}

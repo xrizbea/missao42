@@ -1,0 +1,7 @@
+.lista{
+    display: none;
+}
+
+.conteiner:hover .lista{
+    display: block;
+}
